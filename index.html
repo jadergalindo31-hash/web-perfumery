@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#171411">
+<title>AURUM | Perfumería</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="top">FRAGANCIAS CON PERSONALIDAD · ENCUENTRA TU ESENCIA</div>
+
+<header>
+  <nav>
+    <a class="logo" href="#inicio">AURUM<span>.</span></a>
+
+    <div class="links" id="links">
+      <a href="#inicio">Inicio</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+
+    <div>
+      <button class="cartbtn" id="openCart">
+        Bolsa <span class="count" id="count">0</span>
+      </button>
+      <button class="menubtn" id="menu">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<section class="wrap hero" id="inicio">
+  <div class="reveal">
+    <div class="eyebrow">Una esencia, mil historias</div>
+    <h1>Deja una huella.<br><em>Sin decir una palabra.</em></h1>
+
+    <p class="lead">
+      Descubre fragancias que acompañan tu personalidad.
+      Explora aromas icónicos y encuentra el que mejor cuenta tu historia.
+    </p>
+
+    <a class="btn primary" href="#catalogo">Explorar colección ↗</a>
+    <a class="btn ghost" href="#nosotros">Conócenos</a>
+  </div>
+
+  <div class="visual reveal">
+    <img
+      src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1000&q=85"
+      alt="Composición elegante de perfume"
+    >
+    <div class="note">
+      <b>El aroma correcto</b>
+      <small>se convierte en recuerdo.</small>
+    </div>
+  </div>
+</section>
+
+<div class="ticker">
+  ✦ FRAGANCIAS CON PERSONALIDAD　
+  ✦ ENCUENTRA TU ESENCIA　
+  ✦ AROMAS PARA CADA MOMENTO
+</div>
+
+<section class="wrap" id="catalogo">
+  <div class="head reveal">
+    <div>
+      <div class="eyebrow">Nuestra selección</div>
+      <h2>Encuentra tu aroma</h2>
+    </div>
+
+    <p class="muted">
+      Explora la colección, agrega tus favoritos a la bolsa
+      y envía tu solicitud por WhatsApp.
+    </p>
+  </div>
+
+  <div class="filters">
+    <button class="filter active" data-filter="Todos">Todos</button>
+    <button class="filter" data-filter="Femenino">Femeninos</button>
+    <button class="filter" data-filter="Masculino">Masculinos</button>
+    <button class="filter" data-filter="Unisex">Unisex</button>
+
+    <input id="search" placeholder="Buscar perfume o marca...">
+  </div>
+
+  <div class="products" id="products"></div>
+
+  <p class="muted" style="font-size:.76rem">
+    * Productos, fotografías y precios ilustrativos.
+    Verifica inventario, presentación, autenticidad y precios reales antes de publicar.
+  </p>
+</section>
+
+<section class="wrap" id="nosotros">
+  <div class="story reveal">
+    <div>
+      <div class="eyebrow">El universo AURUM</div>
+      <h2>El lujo está en los detalles.</h2>
+
+      <p class="muted">
+        Una fragancia es mucho más que un aroma: es una forma de expresión.
+        Reunimos una selección de perfumes para acompañarte en cada ocasión,
+        desde los días cotidianos hasta los momentos especiales.
+      </p>
+
+      <p class="muted">
+        ¿No sabes cuál elegir? Escríbenos y te ayudaremos a encontrar
+        una opción según tus gustos.
+      </p>
+
+      <a class="btn primary" id="advice" target="_blank" rel="noopener">
+        Pedir asesoría por WhatsApp ↗
+      </a>
+    </div>
+
+    <img
+      src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=85"
+      alt="Colección de fragancias"
+    >
+  </div>
+
+  <div class="perks reveal">
+    <div class="perk">
+      <b>✦ Selección especial</b>
+      <span>Fragancias para distintos estilos y ocasiones.</span>
+    </div>
+
+    <div class="perk">
+      <b>✦ Atención cercana</b>
+      <span>Resuelve tus dudas con nuestro equipo.</span>
+    </div>
+
+    <div class="perk">
+      <b>✦ Compra sencilla</b>
+      <span>Envía tu solicitud y confirma por WhatsApp.</span>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" id="contacto">
+  <div class="head">
+    <div>
+      <div class="eyebrow">Estamos para ayudarte</div>
+      <h2>Hablemos de aromas.</h2>
+    </div>
+
+    <p class="muted">
+      ¿Tienes preguntas o quieres consultar disponibilidad?
+      Contáctanos.
+    </p>
+  </div>
+
+  <div class="contactgrid">
+    <div class="contactbox">
+      <h3>Visítanos o escríbenos</h3>
+
+      <div class="line">📍 Bogotá, Colombia · dirección de demostración</div>
+      <div class="line">🕒 Lunes a sábado · 10 a. m. – 7 p. m.</div>
+      <div class="line">📱 WhatsApp: 302 490 2764</div>
+
+      <p>Dirección y horarios ficticios. Reemplázalos antes de publicar.</p>
+
+      <a class="btn primary" id="contactLink" target="_blank" rel="noopener">
+        Escribir por WhatsApp ↗
+      </a>
+    </div>
+
+    <div class="contactbox">
+      <h3>Síguenos</h3>
+      <p>Descubre novedades, recomendaciones y nuevas fragancias.</p>
+
+      <div class="line">
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram ↗</a>
+      </div>
+
+      <div class="line">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook ↗</a>
+      </div>
+
+      <div class="line">
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok ↗</a>
+      </div>
+
+      <p class="muted" style="font-size:.76rem">
+        Enlaces genéricos: sustituir por perfiles oficiales.
+      </p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="foot">
+    <span class="logo">AURUM<span>.</span></span>
+    <span>© 2026 AURUM Perfumería · Sitio de demostración</span>
+    <a href="#inicio">Volver arriba ↑</a>
+  </div>
+</footer>
+
+<!-- Carrito -->
+<div class="overlay" id="overlay"></div>
+
+<aside class="drawer" id="drawer">
+  <div class="drawerhead">
+    <h2>Tu bolsa</h2>
+    <button class="close" id="close">×</button>
+  </div>
+
+  <div class="items" id="items">
+    <div class="empty">Tu bolsa espera su primera fragancia.</div>
+  </div>
+
+  <div class="total">
+    <p><b>Subtotal: <span id="subtotal">$0</span></b></p>
+
+    <button class="btn primary" id="checkout" style="width:100%">
+      Continuar por WhatsApp ↗
+    </button>
+
+    <p class="muted" style="font-size:.72rem">
+      El pedido es una solicitud; la tienda confirmará disponibilidad,
+      precio final y entrega. No se procesa un pago en esta página.
+    </p>
+  </div>
+</aside>
+
+<!-- Formulario -->
+<div class="modal" id="modal">
+  <div class="modalbox">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <h2>Completa tu solicitud</h2>
+      <button class="close" id="closeModal">×</button>
+    </div>
+
+    <p class="muted">Prepara el mensaje de tu pedido.</p>
+
+    <form id="form">
+      <div class="field">
+        <label for="name">Tu nombre</label>
+        <input id="name" required maxlength="70" placeholder="Nombre">
+      </div>
+
+      <div class="field">
+        <label for="delivery">¿Cómo prefieres recibirlo?</label>
+        <select id="delivery">
+          <option>Consultar envío</option>
+          <option>Recoger en tienda</option>
+          <option>Coordinar entrega</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="notes">Notas (opcional)</label>
+        <textarea id="notes" rows="3" maxlength="300"></textarea>
+      </div>
+
+      <button class="btn primary" style="width:100%">
+        Enviar solicitud por WhatsApp ↗
+      </button>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast">Añadido a tu bolsa</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
